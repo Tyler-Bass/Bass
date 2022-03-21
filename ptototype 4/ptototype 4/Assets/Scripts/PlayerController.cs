@@ -96,7 +96,8 @@ public class PlayerController : MonoBehaviour
 
         }
     }
-    
+    //This is a comment for the git test
+
     private void Fire()
     {
         GameObject ammo;
