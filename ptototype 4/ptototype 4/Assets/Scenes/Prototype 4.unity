@@ -1290,6 +1290,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23564663788724664, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3eb7eff9c9133445b1a35ad7cd478b1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
 --- !u!1 &1403545341 stripped
@@ -1447,6 +1451,7 @@ MonoBehaviour:
   specificEnemy: {fileID: 0}
   ammoScript: {fileID: 0}
   flySpeed: 100
+  rb: {fileID: 0}
 --- !u!1 &1572875062
 GameObject:
   m_ObjectHideFlags: 0
